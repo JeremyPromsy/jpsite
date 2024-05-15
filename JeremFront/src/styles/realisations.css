@@ -1,8 +1,29 @@
+.partRealisations {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 0px;
+}
 
+.partRealisations h2 {
+    padding: 10px 0;
+}
 
+.cardRealisations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 40px;
+    max-width: 1200px;
+}
 
-
-
+.cardSite {
+    max-width: 500px;
+    padding:5px;
+    max-height: 500px;
+}
 
 @media screen and (min-width:1025px){
 
