@@ -1,0 +1,53 @@
+.imgJP {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.infoLiens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infoLiens .infoIcons {
+    height: 50px;
+}
+
+.infoLiens .infoIcons1 {
+    color: #0e76a8;
+}
+
+.infoLiens .infoIcons2 {
+    color: #00ACEE;
+}
+
+.infoLiens .infoIcons3 {
+    color: #010408;
+}
+
+@media screen and (min-width:1025px){
+    .partInformations {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:834px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:480px){
+  
+}
