@@ -1,9 +1,24 @@
 .partTechnologies {
     background: #c9dfec;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.partTitreTechno h2 {
+    text-align: center;
+}
+
+.cardTechnologie h3 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .cardTechnologie .technoIcons {
-    height: 50px;
+    height: 60px;
 }
 
 .cardTechnologie .technoIcons1 {
@@ -24,4 +39,53 @@
 
 .cardTechnologie .technoIcons5 {
     color: #1B769D;
+}
+
+@media screen and (min-width:1025px){
+    .partCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cardTechnologie {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*.technoIcons1, 
+    .technoIcons2, 
+    .technoIcons3, 
+    .technoIcons4, 
+    .technoIcons5 {
+
+    }*/
+
+    .cardTechno1, 
+    .cardTechno2, 
+    .cardTechno3, 
+    .cardTechno4, 
+    .cardTechno5 {
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:834px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:480px){
+  
 }

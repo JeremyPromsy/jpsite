@@ -1,23 +1,40 @@
-
-
-
-@media screen and (min-width:1025px){
-
+.pageHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.partHome {
+    width: 100%;
+}
+
+@media screen and (min-width:1025px){
+    .partHome {
+        max-width: 1000px;
+    }
+}
 
 @media screen and (max-width:1024px){
-
+    .partHome {
+        max-width: 800px;
+    }
 }
 
 @media screen and (max-width:834px){
-  
+    .partHome {
+        max-width: 750px;
+    }
 }
 
 @media screen and (max-width:768px){
-  
+    .partHome {
+        max-width: 460px;
+    }
 }
 
 @media screen and (max-width:480px){
-  
+    .homeComponents {
+        max-width: 350px;
+    }
 }

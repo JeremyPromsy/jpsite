@@ -8,11 +8,15 @@ import MeContacter from '../components/MeContacter.jsx';
 
 function Home() {
     return (
-      <div className="HomeComponents">
-        <Realisations />
-        <Technologies />
-        <Informations />
-        <MeContacter />
+      <div className="pageHome">
+        <div className="partHome">
+          <div className="homeComponents">
+            <Realisations />
+            <Technologies />
+            <Informations />
+            <MeContacter />
+          </div>
+        </div>
       </div>
     );
   }
