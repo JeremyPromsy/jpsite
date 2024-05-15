@@ -9,6 +9,10 @@
     animation: entrance-effect 1000ms forwards;
 }
 
+.partMeContacter h2{
+    margin: 0;
+}
+
 .textMeContacter {
     text-align: center;
     padding-bottom: 5px;
@@ -18,6 +22,7 @@
     font-size: 16px;
     font-style: italic;
     font-weight: 700;
+    padding: 10px 0;
 }
 
 .boutonMeContacter {

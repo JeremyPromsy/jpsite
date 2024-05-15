@@ -3,19 +3,24 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 20px;
+    padding: 0 20px;
     border-radius: 20px;
     margin: 20px 0px;
 }
 
 .partTitreTechno h2 {
-    text-align: center;
+    padding: 10px 0;
 }
 
 .cardTechnologie h3 {
     font-style: italic;
     font-weight: 500;
     font-size: 16px;
+    padding: 5px 0 20px 0;
+}
+
+.technoIcons {
+    padding: 5px 0;
 }
 
 .cardTechnologie .technoIcons {
