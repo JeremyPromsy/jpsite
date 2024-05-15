@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
 @media screen and (min-width:1025px){
     .partHome {
         max-width: 1000px;
@@ -34,7 +39,7 @@
 }
 
 @media screen and (max-width:480px){
-    .homeComponents {
+    .partHome {
         max-width: 350px;
     }
 }
