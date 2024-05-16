@@ -63,6 +63,17 @@ const Slideshow = () => {
     "Premier projet étude - Site vitrine"
   ];
 
+  const altTexts = [
+    "Site réalisé pour le compte d'une création de société. Site vitrine expliquant l'activité de l'entreprise ainsi qu'une page contact pour renseignements.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Premier projet étude - Site vitrine",
+  ];
+
   return (
     <section id="gallery" className="gallery">
       <div className="galleriePhoto">
@@ -77,7 +88,7 @@ const Slideshow = () => {
                 <a key={index} href={externalLinks[index]} target="_blank" rel="noopener noreferrer">
                 {index === current && (
                   <div className="image-container">
-                    <img src={img} alt="Photos du logement" className="gallery-image" />
+                    <img src={img} alt={altTexts[index]} className="gallery-image" />
                     <div className="caption">
                       <h3>{titles[index]}</h3>
                       <p>{paragraphs[index]}</p>
