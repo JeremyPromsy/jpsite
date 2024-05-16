@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/realisations.css"
-import { Link } from "react-router-dom";
 import Slideshow from "../components/Slideshow";
 
 function Realisations() {

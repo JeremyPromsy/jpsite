@@ -5,11 +5,17 @@ import flecheGauche from "../assets/FlècheGauche.png";
 
 import Img1 from "../Images/SiteSandra.png";
 import Img2 from "../Images/SiteSandra.png";
+import Img3 from "../Images/SiteSandra.png";
+import Img4 from "../Images/SiteSandra.png";
+import Img5 from "../Images/SiteSandra.png";
+import Img6 from "../Images/SiteSandra.png";
+import Img7 from "../Images/SiteSandra.png";
+import Img8 from "../Images/SiteSandra.png";
 
 import "../styles/slideshow.css";
 
 const Slideshow = () => {
-  const pictures = [Img2, Img1];
+  const pictures = [Img8, Img7, Img6, Img5, Img4, Img3, Img2, Img1];
 
   const [current, setCurrent] = useState(0);
 
