@@ -1,32 +1,3 @@
-.partTechnologies {
-    background: #c9dfec;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 0 20px;
-    border-radius: 20px;
-    margin: 20px 0px;
-}
-
-.partTitreTechno h2 {
-    padding: 10px 0;
-}
-
-.cardTechnologie h3 {
-    font-style: italic;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 5px 0 20px 0;
-}
-
-.technoIcons {
-    padding: 5px 0;
-}
-
-.cardTechnologie .technoIcons {
-    height: 60px;
-}
-
 .cardTechnologie .technoIcons1 {
     color: #F93237;
 }
@@ -47,27 +18,47 @@
     color: #1B769D;
 }
 
-@media screen and (min-width:1025px){
-    .partCard {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.partTechnologies {
+    background: #c9dfec;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
 
-    .cardTechnologie {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
+.partCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    /*.technoIcons1, 
-    .technoIcons2, 
-    .technoIcons3, 
-    .technoIcons4, 
-    .technoIcons5 {
+.cardTechnologie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
 
-    }*/
+.partTitreTechno h2 {
+    padding: 10px 0;
+}
+
+.cardTechnologie h3 {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 5px 0 20px 0;
+}
+
+.technoIcons {
+    padding: 5px 0;
+}
+
+.cardTechnologie .technoIcons {
+    height: 60px;
+}
 
     .cardTechno1, 
     .cardTechno2, 
@@ -77,15 +68,26 @@
         width: 200px;
     }
 
-}
-
-
 @media screen and (max-width:1024px){
-
+    .cardTechnologie h3 {
+        font-size: 14px;
+        padding: 5px 0px 20px 0px;
+    }
+ 
+    .cardTechnologie .technoIcons {
+        height: 50px;
+    }
 }
 
 @media screen and (max-width:834px){
-  
+    .cardTechnologie h3 {
+        font-size: 14px;
+        padding: 5px 0px 20px 0px;
+    }
+ 
+    .cardTechnologie .technoIcons {
+        height: 40px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -93,5 +95,24 @@
 }
 
 @media screen and (max-width:480px){
-  
+    .partTechnologies {
+        margin: 0px 5px;
+    }
+
+    .cardTechnologie h3 {
+        font-size: 12px;
+        padding: 0px 0px 1cap 0px;
+    }
+ 
+    .cardTechnologie .technoIcons {
+        height: 30px;
+    }
 }
+
+/*.technoIcons1, 
+    .technoIcons2, 
+    .technoIcons3, 
+    .technoIcons4, 
+    .technoIcons5 {
+
+}*/

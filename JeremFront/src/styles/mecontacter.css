@@ -21,7 +21,7 @@
 .textMeContacter p {
     font-size: 16px;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px 0;
 }
 
@@ -40,24 +40,31 @@
     font-weight: bold;
 }
 
-
-@media screen and (min-width:1025px){
-
-}
-
-
-@media screen and (max-width:1024px){
-
-}
-
-@media screen and (max-width:834px){
-  
-}
-
-@media screen and (max-width:768px){
-  
+@media screen and (max-width:1024px){  
+    .partMeContacter {
+        margin: 5px;
+    }
+    
+    .textMeContacter p {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    
+    .boutonMeContacter {
+        border: solid 1px;
+    }
+    
+    .boutonMeContacter a {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:480px){
-  
+    .textMeContacter p {
+        font-size: 14px;
+    }
+    
+    .boutonMeContacter a {
+        font-size: 14px;
+    }
 }

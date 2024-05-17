@@ -60,6 +60,31 @@
     height: 30px;
 }
 
+@media screen and (max-width:1024px){
+    .gallery-image{
+        height: 390px;
+        width: 700px;
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    .texteContainer {
+        padding: 0 60px;
+    }
+
+    .texteContainer h3 {
+        font-size: 20px;
+    }
+
+    .imageContainerP {
+        width: 700px;
+    }
+
+    .arrow-left, .arrow-right {
+        height: 20px;
+        padding-bottom: 5px;
+    }
+}
 
 @media screen and (max-width:834px){
     .gallery-image{
@@ -70,7 +95,7 @@
     }
 
     .texteContainer {
-        padding: 0 60px;
+        padding: 0 50px;
     }
 
     .texteContainer h3 {

@@ -1,15 +1,35 @@
-
-
-
-
-
-@media screen and (min-width:1025px){
-
+.mentionsLégales{
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.mentionsLégales p{
+    padding-bottom: 15px;
+    color: black;
+    text-align: justify;
+}
+
+.mentionsLégales h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px
+}
+
+.mentionsLégales h4{
+    text-align: center;
+    padding: 10px;
+}
 
 @media screen and (max-width:1024px){
+    .mentionsLégales h1{
+        font-size: 20px;
+        margin: 5px;
+    }
 
+    .mentionsLégales h4{
+        padding: 5px;
+    }
 }
 
 @media screen and (max-width:834px){

@@ -10,25 +10,12 @@
     margin: 0;
 }
 
-.infoMoi{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.infoMoiPhoto {
-    width: 25%;
-}
-
 .imgJP {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
 
-.infoMoiTexte {
-    width: 65%;
-}
 
 .infoMoiTexte p {
     text-align: justify;
@@ -39,7 +26,6 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    width: 10%;
 }
 
 .infoLiens .infoIcons {
@@ -66,24 +52,78 @@
         align-items: center;
     }
 
+    .infoMoiPhoto {
+        width: 25%;
+    }
+
+    .infoMoiTexte {
+        width: 65%;
+    }
+
+    .infoLiens {
+        width: 10%;
+    }
+
+    .infoMoi{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .infoLiens {
         padding-right: 10px;
     }
 }
 
-
 @media screen and (max-width:1024px){
+    .infoMoi{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 
-}
+    .infoMoiPhoto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    .imgJP {
+        height: 150px;
+        width: 150px;
+    }
 
-@media screen and (max-width:834px){
-  
-}
-
-@media screen and (max-width:768px){
-  
+    .infoMoiTexte {
+        padding: 10px 0;
+    }
+    
+    .infoLiens {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    .infoLiens .infoIcons {
+        height: 50px;
+        padding: 0px 30px;
+    }
 }
 
 @media screen and (max-width:480px){
-  
+    .imgJP {
+        height: 100px;
+        width: 100px;
+    }
+
+    .infoLiens .infoIcons {
+        height:40px;
+        padding: 0px 20px;
+    }
+
+    .partInformations{
+        margin: 10px 5px;
+    }
 }
