@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import flecheDroite from "../assets/FlècheDroite-2.png";
 import flecheGauche from "../assets/FlècheGauche.png";
 
-import Img1 from "../Images/SiteSandra.png";
-import Img2 from "../Images/SiteSandra.png";
-import Img3 from "../Images/SiteSandra.png";
-import Img4 from "../Images/SiteSandra.png";
-import Img5 from "../Images/SiteSandra.png";
-import Img6 from "../Images/SiteSandra.png";
-import Img7 from "../Images/SiteSandra.png";
-import Img8 from "../Images/SiteSandra.png";
+import Img1 from "../Images/SiteBooki.png";
+import Img2 from "../Images/SiteOhMyFood.png";
+import Img3 from "../Images/SiteLapanthère.png";
+import Img4 from "../Images/SitePiiquante.png";
+import Img5 from "../Images/SiteKanap.png";
+import Img6 from "../Images/SiteLapanthère.png";
+import Img7 from "../Images/SiteLaFamicale.png";
+import Img8 from "../Images/SiteVPABySandra.png";
 
 import "../styles/slideshow.css";
 
@@ -64,14 +64,14 @@ const Slideshow = () => {
   ];
 
   const altTexts = [
-    "Site réalisé pour le compte d'une création de société. Site vitrine expliquant l'activité de l'entreprise ainsi qu'une page contact pour renseignements.",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "Premier projet étude - Site vitrine",
+    "Site professionnel - VPA by Sandra - Jérémy Promsy",
+    "Site vitrine - Location saisonnière - Jérémy Promsy",
+    "Sixième projet étude - Site d'annonces en ligne - Jérémy Promsy",
+    "Cinquième projet étude - Premier test back-end - Jérémy Promsy",
+    "Quatrième projet étude - Site e-commerce Front - Jérémy Promsy",
+    "Troisième projet étude - SEO - Jérémy Promsy",
+    "Deuxième projet étude - Site Vitrine - Jérémy Promsy",
+    "Premier projet étude - Site vitrine - Jérémy Promsy"
   ];
 
   return (
