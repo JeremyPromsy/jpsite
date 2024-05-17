@@ -74,32 +74,44 @@ const Slideshow = () => {
   ];
 
   return (
-    <section id="gallery" className="gallery">
+    <section className="gallery">
       <div className="galleriePhoto">
+        <div className="galleriePhotoTitre">
         <div className="fleche flecheGaucheDiv" onClick={prevSlide}>
           {pictures.length > 1 && (
-            <FontAwesomeIcon icon="fa-brands fa-html5" className="arrow-left"/>
+            <FontAwesomeIcon icon="fa-solid fa-arrow-left-long" className="arrow-left"/>
           )}
+        </div>
+        {pictures.map((img, index) => {
+            return (
+                <a key={index} href={externalLinks[index]} target="_blank" rel="noopener noreferrer">
+                {index === current && (
+                  <div className="texteContainer">
+                      <h3>{titles[index]}</h3>
+                  </div>
+                )}
+              </a>
+            );
+          })}
+        <div className="fleche flecheDroiteDiv" onClick={nextSlide}>
+          {pictures.length > 1 && (
+            <FontAwesomeIcon icon="fa-solid fa-arrow-right-long" className="arrow-right"/>
+          )}
+        </div>
         </div>
         <div className="photos">
           {pictures.map((img, index) => {
             return (
                 <a key={index} href={externalLinks[index]} target="_blank" rel="noopener noreferrer">
                 {index === current && (
-                  <div className="image-container">
-                      <h3>{titles[index]}</h3>
+                  <div className="imageContainer">
                       <img src={img} alt={altTexts[index]} className="gallery-image" />
-                      <p>{paragraphs[index]}</p>
+                      <p className="imageContainerP">{paragraphs[index]}</p>
                   </div>
                 )}
               </a>
             );
           })}
-        </div>
-        <div className="fleche flecheDroiteDiv" onClick={nextSlide}>
-          {pictures.length > 1 && (
-            <FontAwesomeIcon icon="fa-brands fa-html5" className="arrow-right"/>
-          )}
         </div>
       </div>
     </section>
