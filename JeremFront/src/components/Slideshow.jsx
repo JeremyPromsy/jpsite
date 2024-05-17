@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 
-import flecheDroite from "../assets/FlècheDroite-2.png";
-import flecheGauche from "../assets/FlècheGauche.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Img1 from "../Images/SiteBooki.png";
 import Img2 from "../Images/SiteOhMyFood.png";
 import Img3 from "../Images/SiteLapanthère.png";
 import Img4 from "../Images/SitePiiquante.png";
 import Img5 from "../Images/SiteKanap.png";
-import Img6 from "../Images/SiteLapanthère.png";
+import Img6 from "../Images/SiteKasa.png";
 import Img7 from "../Images/SiteLaFamicale.png";
 import Img8 from "../Images/SiteVPABySandra.png";
 
@@ -60,7 +59,7 @@ const Slideshow = () => {
     "",
     "",
     "",
-    "Premier projet étude - Site vitrine"
+    "Premier projet étude HTML/CSS - Site vitrine afin d"
   ];
 
   const altTexts = [
@@ -79,7 +78,7 @@ const Slideshow = () => {
       <div className="galleriePhoto">
         <div className="fleche flecheGaucheDiv" onClick={prevSlide}>
           {pictures.length > 1 && (
-            <img src={flecheGauche} alt="left arrow" className="arrow-left" />
+            <FontAwesomeIcon icon="fa-brands fa-html5" className="arrow-left"/>
           )}
         </div>
         <div className="photos">
@@ -88,11 +87,9 @@ const Slideshow = () => {
                 <a key={index} href={externalLinks[index]} target="_blank" rel="noopener noreferrer">
                 {index === current && (
                   <div className="image-container">
-                    <img src={img} alt={altTexts[index]} className="gallery-image" />
-                    <div className="caption">
                       <h3>{titles[index]}</h3>
+                      <img src={img} alt={altTexts[index]} className="gallery-image" />
                       <p>{paragraphs[index]}</p>
-                    </div>
                   </div>
                 )}
               </a>
@@ -101,7 +98,7 @@ const Slideshow = () => {
         </div>
         <div className="fleche flecheDroiteDiv" onClick={nextSlide}>
           {pictures.length > 1 && (
-            <img src={flecheDroite} alt="right arrow" className="arrow-right" />
+            <FontAwesomeIcon icon="fa-brands fa-html5" className="arrow-right"/>
           )}
         </div>
       </div>
